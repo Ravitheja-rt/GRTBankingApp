@@ -1,0 +1,16 @@
+/* Theme: orange primary like ICICI */
+:root{
+  --bs-primary: #ef6c00; /* deep orange */
+  --bs-primary-rgb: 239,108,0;
+}
+.bg-gradient-primary{
+  background: linear-gradient(135deg, #ef6c00, #ff8f00);
+}
+.hero-card{ border: 1px solid rgba(0,0,0,.05); }
+.card .card-title{ color: #ef6c00; }
+.rounded-4{ border-radius: 1rem; }
+.nav-pills .nav-link.active{ background-color: #ef6c00; }
+footer small{ opacity: .9; }
+
+/* Basic validation feedback spacing */
+.was-validated .form-control:invalid, .form-control.is-invalid{ background-image: none; }
